@@ -7,7 +7,7 @@ Install using the Apt repository Before you install Docker Engine for the first 
 # Add Docker's official GPG key:
 
 ```bash
-sudo apt-get update && sudo apt-get install ca-certificates curl gnupg
+sudo apt-get update && sudo apt-get install -y ca-certificates curl gnupg 
 ```
 
 ```bash
