@@ -71,7 +71,7 @@ Log out and try:
 docker version
 ```
 
-##6 - Install Local Persist Volume Plugin for Docker
+# Install Local Persist Volume Plugin for Docker
 
 Manual as root:
 
@@ -81,20 +81,20 @@ Manual as root:
 sudo bash
 ```
 
-### 1 Download the binary files and give execute permission:
+### 1 - Download the binary files and give execute permission:
 
 ```bash
 curl -fLsS "https://github.com/MatchbookLab/local-persist/releases/download/v1.3.0/local-persist-linux-amd64" > /usr/bin/docker-volume-local-persist
 chmod +x /usr/bin/docker-volume-local-persist
 ```
 
-### 2 Setup as a service:
+### 2 - Setup as a service:
 
 ```bash
 sudo curl -fLsS "https://raw.githubusercontent.com/MatchbookLab/local-persist/master/init/systemd.service" > /etc/systemd/system/docker-volume-local-persist.service
 ```
 
-### 3 Enable and start the service
+### 3 - Enable and start the service
 
 ```bash
 sudo systemctl enable docker-volume-local-persist
@@ -102,7 +102,8 @@ sudo systemctl start docker-volume-local-persist
 sudo systemctl status --full --no-pager docker-volume-local-persist
 ```
 
-## 7 - Networking
+# Networking
+
 Create macvlan network in docker:
 
 ```bash
