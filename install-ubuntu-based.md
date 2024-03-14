@@ -1,6 +1,6 @@
-# Install Docker on Debian 11/12
+# Install Docker on Ubuntu 22.04
 
-Install using the Apt repository Before you install Docker Engine for the first time on a new host machine, you need to set up the Docker Apt repository. Afterward, you can install and update Docker from the repository.
+Install using the Apt repository Before you install Docker Engine for the first time on a new host machine, you need to set up the Docker Apt repository. Afterwards, you can install and update Docker from the repository.
 
 ## 1 - Set up Docker's Apt repository:
 
